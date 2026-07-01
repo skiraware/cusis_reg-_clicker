@@ -1,29 +1,3 @@
-# cusis_reg-\_clicker
-
-hover the click button then it would auto click at the certain required time
-
-## user manual
-
-u can copy paste below or download the clicker.js in the repo. Put it in the console of the browser then it works (adjust the param below of the time)
-in which correct the hh:mm
-
-```js
-let target = new Date(
-  now.getFullYear(),
-  now.getMonth(),
-  now.getDate(),
-  11, //hh
-  00, //mm
-  0,
-  0,
-);
-```
-
-## the code
-
-the code that u copy:
-
-```js
 let currentElement = null;
 
 document.addEventListener("mouseover", (e) => {
@@ -56,4 +30,3 @@ setTimeout(clickAtTime, delay);
 console.log(
   "Script running. Move your mouse over the element you want to click at now.",
 );
-```
